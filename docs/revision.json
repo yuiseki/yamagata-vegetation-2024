@@ -1,0 +1,22 @@
+{
+ "repo": "yuiseki/yamagata-vegetation-2024",
+ "revision": "010b8668592ff7977ae1e928a39061b7bee14e14",
+ "sha256": {
+  "README.md": "65ec2902e0603a1b80fdbc54ffa06e5c5d56b77989ec611a6e36302d06898623",
+  "LICENSE": "fb06f33a535454a17075f4f182dfef27530be79d9d2eb5c9b4e4c43fbf24f32b",
+  "provenance.yaml": "c16edb2ec1bd45d264ed5243de0d7e192c29542aee256aaf554521b30177f698",
+  "parquet/vegetation_yamagata.parquet": "72631a2f18449a394f71d526229bc074ecf578f470be51c77d815c8a5ecf63ff",
+  "raw/20261029/MANIFEST.json": "0f213849ffae6ee4636b1cde631f21adee5e483783e8e9eb7e25bb0da615ff41",
+  "raw/20261029/ckan_record.json": "a2a8016a2e29ff0cad5f22cfb2713e4a1d9ba1bac59eff23ae5b876f03bac891",
+  "docs/yamagata_profile.md": "a01401405040fa22a0f96d2fdbfbc1dce13ec5d6de54b1cba974909c00781a89",
+  "docs/yamagata_profile.json": "368e36015edf6eed6b3d075ec93e4b41d438f6098da4326c912e4a5d88d6a896",
+  "docs/raw_profile.md": "67863aec734e43b04fe36220abc558f7a9b2ca3e54fdd251ef8d0aea7ddee401",
+  "docs/raw_profile.json": "b0b4d1e95c6b0dddebc21eadd9d17af321f00b2e720c1d4fb89362f2fadded93",
+  "docs/extract_log.json": "34e48425d6b90866e2a8c7acc5a0c83bba60623af85b1934d1001173d3f445ec",
+  "docs/legend_yamagata.tsv": "5c6e6ada2bebeea093c14a9bade8687c0e932f445f8299f3bddb3c49daf26eb1",
+  "docs/legend_matches_yamagata.tsv": "870b4cfef7ee84049e45182a545491350a2456f70c2f01e274281d6e214267b9",
+  "docs/legend_all_source_raw.tsv": "6c7ef6df4296893addee56a8dd5597496a5356a261cdf7ca0993a11975cc89d4",
+  "docs/legend_matches_source_raw.tsv": "30d2550203d1ba425971a9a72b68db200ecfa774a857c7ff42a86b5efaa02f08",
+  "docs/verify_local.json": "6a3dc8accc8a141d46d9f034c95c1ef39f7cd541af6d914f4870f3ee83567311"
+ }
+}
