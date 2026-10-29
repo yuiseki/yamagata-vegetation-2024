@@ -1,0 +1,35 @@
+{
+ "cutter": "KSJ N03 20260101 06 (Yamagata), 721 polygons dissolved",
+ "area_crs": 6678,
+ "files": {
+  "veg2024bk2a.gpkg": {
+   "read_in_bbox": 175964,
+   "intersect": 127057,
+   "wholly_inside": 125970,
+   "crossing": 1087,
+   "crossing_kept_after_clip": 1087,
+   "crossing_dropped_no_area": 0,
+   "kept": 127057
+  },
+  "veg2024bk2b.gpkg": {
+   "read_in_bbox": 31753,
+   "intersect": 4649,
+   "wholly_inside": 4489,
+   "crossing": 160,
+   "crossing_kept_after_clip": 160,
+   "crossing_dropped_no_area": 0,
+   "kept": 4649
+  },
+  "veg2024bk4.gpkg": {
+   "read_in_bbox": 31298,
+   "intersect": 10216,
+   "wholly_inside": 9910,
+   "crossing": 306,
+   "crossing_kept_after_clip": 306,
+   "crossing_dropped_no_area": 0,
+   "kept": 10216
+  }
+ },
+ "rows": 141922,
+ "invalid_after": 0
+}
