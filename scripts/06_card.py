@@ -107,8 +107,8 @@ the polygon over all Japan.
 
 ## What is in it
 
-- {rows:,} polygons, {area:.1f} km2, {nulls_txt}.
-- area by 地域ブロック: {blocks_area}.{block_note}, {invalid} invalid and {empty} empty geometries.
+- {rows:,} polygons, {area:.1f} km2, {nulls_txt}, {invalid} invalid and {empty} empty geometries.
+- area by 地域ブロック: {blocks_area}.{block_note}
 - 作成年度 (polygons): {years}
 - {legends} legends are present. {m_codes} of them contain ブナ, ミズナラ, ナラ or コナラ in the name ({m_polys:,} polygons;
   the legends overlap in meaning, so the areas are not to be added as one class):
@@ -163,7 +163,7 @@ def main() -> None:
     holding = [n for n in veg.SOURCE_FILES if f[n]["kept"]]
     files_list = ", ".join(f"`{n}` ({veg.BLOCK_NAMES.get(n[9], '')})" for n in veg.SOURCE_FILES)
     per_file = f"{len(holding)} of the {len(veg.SOURCE_FILES)} source files hold parts of {veg.EN}: " + ", ".join(
-        f"{f[n]['kept']:,} polygons from `{n.split('.')[0][-4:]}`" for n in holding
+        f"{f[n]['kept']:,} polygons from `{n[7:].split('.')[0]}`" for n in holding
     )
     dropped = sum(x["crossing_dropped_no_area"] for x in f.values())
     nulls = sum(prof["nulls"].values())
