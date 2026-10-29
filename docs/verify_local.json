@@ -1,0 +1,25 @@
+{
+ "source_rows": 1485075,
+ "rows": 141922,
+ "fid_unique": true,
+ "reselected": 141922,
+ "only_in_reselected": 0,
+ "only_in_mine": 0,
+ "source_file_differs": 0,
+ "attribute_differences": 0,
+ "unclipped_geometry_not_equal": 0,
+ "unclipped_wkb_not_identical": 0,
+ "clipped_outside_boundary": 0,
+ "clipped_not_equal_to_intersection": 0,
+ "clipped_without_source_overlap": 0,
+ "clipped_larger_than_source": 0,
+ "max_outside_area_deg2": {
+  "fid": 1236714,
+  "excess": 1.098296800727816e-16,
+  "polygon_area": 0.00028899398389013964,
+  "ratio": 3.8004140637935594e-13
+ },
+ "invalid": 0,
+ "clipped_rows": 1553,
+ "unclipped_but_crossing": 0
+}
